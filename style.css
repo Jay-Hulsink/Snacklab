@@ -1,0 +1,16 @@
+body {
+    background-color: #a3a3a3;
+    margin: 0;
+}
+nav {
+    display: flex;
+    background-color: #264783;
+    /* background-image: linear-gradient(to right, rgba(038, 064, 128, 1), rgba(038, 064, 128, 0.5)); */
+    position: sticky;
+    color: #d6d6d6;
+}
+h1 {
+    margin: 0;
+    padding: 1vh;
+    font-size: 3vh;
+}
