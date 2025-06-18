@@ -39,7 +39,7 @@ require_once 'connection.php';
         </div>
         <?php
 
-            echo $connect->query('select * from users');
+            echo $connect->query('select * from `users`');
             
         ?>
     </body>
