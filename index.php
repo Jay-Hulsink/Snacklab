@@ -1,7 +1,7 @@
 <?php
 
 require_once 'connection.php';
-// var_dump($tmp);
+var_dump($tmp);
 // echo $tmp;
 ?>
 <!doctype html>
