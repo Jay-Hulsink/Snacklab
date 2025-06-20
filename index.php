@@ -1,7 +1,7 @@
 <?php
 
 require_once 'connection.php';
-
+echo $tmp;
 ?>
 <!doctype html>
 <html>
