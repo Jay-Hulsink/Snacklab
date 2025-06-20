@@ -2,7 +2,7 @@
 
 require_once 'connection.php';
 // var_dump($tmp);
-echo $tmp;
+// echo $tmp;
 ?>
 <!doctype html>
 <html>
