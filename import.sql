@@ -7,3 +7,7 @@ create table users (
     pass varchar(255),
     PRIMARY KEY (userId)
 );
+INSERT INTO users (username, pass)
+VALUES
+('Jay', 'pass'),
+('Jesse', 'kakkerlak');
