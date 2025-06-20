@@ -1,6 +1,6 @@
 <?php
 
-require_once 'connection.php';
+require 'connection.php';
 var_dump($tmp);
 // echo $tmp;
 ?>
