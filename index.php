@@ -30,7 +30,7 @@
                 <button type="button" class="btn-close bg-light text-reset col-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body col-12 w-100">
-                <p class="col-12 w-100">i do not like green eggs and ham</p>
+                <p class="col-12 w-75">ik ruik u van hier</p>
                 <ul>
                     <li><a>groups</a></li>
                 </ul>
