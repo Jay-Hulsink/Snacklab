@@ -1,11 +1,6 @@
 <?php
 
 require 'connection.php';
-var_dump($tmp);
-
-// $userdump = $connect->prepare("")
-
-// echo $tmp;
 ?>
 <!doctype html>
 <html>
