@@ -1,7 +1,6 @@
 <?php
 
-require_once 'connection.php';
-
+// require_once 'connection.php';
 
 ?>
 <!doctype html>
@@ -25,9 +24,9 @@ require_once 'connection.php';
                 
             </div>
         </nav>
-        <div class="offcanvas offcanvas-start mw-30 col-12" id="offcanvas">
-            <div class="offcanvas-header col-12" style="border-bottom: #a3a3a3 solid 1px;">    
-                <h5 class="offcanvas-title col-9 w-75">Explorer</h5>
+        <div class="offcanvas offcanvas-start mw-50 col-11" id="offcanvas">
+            <div class="offcanvas-header col-11" style="border-bottom: #a3a3a3 solid 1px;">    
+                <h5 class="offcanvas-title col-9">Explorer</h5>
                 <button type="button" class="btn-close bg-light text-reset col-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body col-12 w-100">
