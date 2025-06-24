@@ -6,7 +6,6 @@ nav {
     display: flex;
     background-color: #264783;
     /* background-image: linear-gradient(to right, rgba(038, 064, 128, 1), rgba(038, 064, 128, 0.5)); */
-    position: sticky;
     width: 100%;
     color: #d6d6d6;
 }
@@ -20,4 +19,8 @@ h1 {
     background-color: #063763;
     border-right: 1vh solid #a3a3a3;
     border-radius: 0px 0px, 1vh 0px;
+}
+.nav-tabs {
+   background-color:#2647834B;
+   
 }
