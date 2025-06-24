@@ -1,13 +1,13 @@
 drop database if exists SnackLab ;
 create database SnackLab;
-use SnackLab;
+use `SnackLab`;
 create table groups (
     id int AUTO_INCREMENT,
     groupName varchar(100),
     groupPass varchar(100), 
     PRIMARY KEY(id)
 );
-INSERT INTO groups (groupName, groupPass)
+INSERT INTO `groups` (groupName, groupPass)
 VALUES ("oma's smaakzame keuken", 'willie');
 create table users (
 	id int AUTO_INCREMENT,
@@ -18,7 +18,7 @@ create table users (
     FOREIGN KEY (groupId) REFERENCES groups(id)
 );
 
-INSERT INTO users (username, pass, groupId)
+INSERT INTO `users` (username, pass, groupId)
 VALUES
 ('Jay', 'pass', 1),
 ('Jesse', 'kakkerlak', 1);
@@ -36,7 +36,7 @@ CREATE TABLE recipes (
     FOREIGN KEY (groupId) REFERENCES groups(id)
 );
 
-INSERT INTO recipes (groupId, userId, recipeTitle, shortRecipeDescription) 
+INSERT INTO `recipes` (groupId, userId, recipeTitle, shortRecipeDescription) 
 VALUES
 (1, 1, 'broccolisoep', 'smaakame soep met 90 kilo broccoli'),
 (1, 1, 'broccolisoep', 'smaakame soep met 90 kilo broccoli'),
