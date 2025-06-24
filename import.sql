@@ -1,4 +1,4 @@
-drop database if exists SnackLab ;
+drop database if exists SnackLab;
 create database SnackLab;
 use `SnackLab`;
 create table groups (
